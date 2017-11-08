@@ -1,0 +1,124 @@
+body {
+  margin: 0px;
+  background-color: black;
+  color: seashell;
+  font-family: helvetica, sans-serif;
+  font-size: 22px;
+  text-align: center;
+}
+
+.body {
+  margin: auto;
+  width: 1200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-bottom: 70px;
+  flex-direction: column;
+}
+/* Header */
+header {
+  width: 100%;
+  position: fixed;
+  z-index: 1;
+  height: 69px;
+  background-color: black;
+  border-bottom: 1px solid seashell;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+header img {
+  height: 50px;
+  padding-left: 10px;
+}
+
+nav span {
+  display: inline-block;
+  padding: 20px 10px;
+}
+
+nav {
+  text-align: right;
+  flex-grow: 1;
+  padding-right: 15px;
+}
+/* top div */
+.mission {
+  height: 700px;
+  background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-mission-background.jpg);
+  padding-top: 70px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.content {
+  margin: auto;
+  background-color: black;
+  width: 100%;
+}
+/* second div with monthly items */
+.products {
+  margin: auto;
+  width: 1000px;
+  height: 700px;
+  display: block;
+  padding-top: 60px;
+}
+
+.products h2, h4 {
+  display: block;
+}
+
+.item img {
+  height: 200px;
+  display: block;
+  margin: 10px;
+}
+
+.product-description {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+/* Locations */
+
+.locations {
+  margin-top: 50px;
+  background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-locations-background.jpg);
+  height: 500px;
+  width: 1200px;
+  display: block;
+}
+
+.addresess {
+  display: flex;
+  width: 1200px;
+  justify-content: space-around;
+}
+
+.store-front {
+  opacity: 1;
+  background-color: black;
+  flex-basis: 280px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 10px;
+  margin: 5px 20px;
+}
+
+/* contact and footer */
+
+.contact {
+  height: 200px;
+}
+
+.footer {
+  text-align: left;
+  
+}
