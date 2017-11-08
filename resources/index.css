@@ -13,7 +13,6 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  padding-bottom: 70px;
   flex-direction: column;
 }
 /* Header */
@@ -45,7 +44,7 @@ nav {
   flex-grow: 1;
   padding-right: 15px;
 }
-/* top div */
+/* mission div */
 .mission {
   height: 700px;
   background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-mission-background.jpg);
@@ -60,7 +59,7 @@ nav {
   background-color: black;
   width: 100%;
 }
-/* second div with monthly items */
+/* second div with store items */
 .products {
   margin: auto;
   width: 1000px;
@@ -120,5 +119,6 @@ nav {
 
 .footer {
   text-align: left;
-  
+  margin-left: 20px;
+  width: 100%;
 }
